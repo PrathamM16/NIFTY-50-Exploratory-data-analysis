@@ -25,28 +25,34 @@ Line plot showing trends over time.
 Histograms depicting distribution of numerical variables.
 Scatter plots for pairwise relationships.
 Bar plots for categorical variables.
+
 **Understanding Data**
 Number of Samples and Attributes: Displayed the number of rows (samples) and columns (attributes) in the dataset.
 Column Names: Listed all the column names in the dataset.
 Data Frame Structure: Described the structure of the data frame.
 Statistical Information: Provided statistical summaries of the dataset.
 Count of Unique Values: Identified and counted unique values in specific columns.
+
 **Handling Missing Data**
 Identified Missing Values: Determined the presence of missing values in the dataset.
 Handling Strategies: Removed rows with missing values and replaced missing values with appropriate alternatives.
+
 **Exploratory Data Analysis**
 Categorical Data Encoding: Applied LabelEncoder to encode categorical data for numerical analysis.
 Feature Scaling: Performed feature scaling using Standardization (Z-score) technique.
 Normalization: Conducted normalization using Min-Max scaling and explained differences from standardization.
 Dataset Splitting: Split the dataset into training and test sets with a 75%-25% ratio, highlighting the importance of random_state parameter.
+
 **Encoding Categorical Data**
 Label Encoding: Applied LabelEncoder from scikit-learn to transform categorical data into numerical values.
 **Feature Scaling**
 Standardization: Explained the process of standardization (Z-score normalization) and its computational method.
+
 **Normalization**
 Min-Max Scaling: Described normalization using Min-Max scalar and explained its differences from standardization.
 **Splitting Dataset**
 Train-Test Split: Split the dataset into training (75%) and testing (25%) sets, emphasizing the role of random_state parameter.
+
 **Saving Preprocessed Dataset**
 The preprocessed dataset was saved in CSV format for further analysis and modeling tasks.
 
